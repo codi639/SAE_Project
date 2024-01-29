@@ -1,0 +1,111 @@
+#conteneur
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+body 
+{
+    background-image: url("../image/escalade.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+header 
+{
+    background-color: rgb(142, 142, 142, 0.6);
+    height: 20vh;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main 
+{ 
+    height: 60vh;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    justify-content: center;
+    align-items: center;
+}
+footer 
+{
+    height: 20vh;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section 
+{
+    margin-left: 50px;
+}
+
+header>p 
+{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 30px;
+}
+@media (max-width: 600px)
+{
+    main{color: red;}
+}
+@media (max-width: 601px) and (min-width: 1199px)
+{
+    main{color: green;}
+}
+@media (min-width: 1200px)
+{
+    main{color: red;}
+}
+@media (max-width:300px)
+{
+    footer,main, header{color: red}
+}
+@media (min-width:301px)
+{
+    footer,main, header{color: green}
+}
+@media (min-width:600px)
+{
+    footer, main, header{color:red;}
+}
+p{
+    font-size: 5vh;
+    color: blue;
+    display: none;
+}
+@media (max-width: 600px)
+{
+    p:first-of-type {
+        display: block;
+    }
+}
+@media (min-width: 1200px)
+{
+    p:nth-of-type(2) {
+        display: block;
+    }
+}
+@media (max-height: 300px)
+{
+    p:nth-of-type(3) {
+        display: block;
+    }
+}
+@media (min-height: 600px)
+{
+    p:last-of-type {
+        display: block;
+    }
+}

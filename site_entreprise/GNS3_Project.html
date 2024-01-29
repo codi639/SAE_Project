@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<head>
+    <title>GNS3 Project</title>
+    <!-- The <meta> tag provides metadata about the HTML document -->
+    <meta charset="utf-8">
+    <meta name="author" content="Jean-Lou Gilbertas">
+    <meta name="description" content="GNS3 Project">
+
+    <!-- The <link> tag defines a link between a document and an external resource -->
+    <link rel="stylesheet" href="CSS/style4.css">
+
+    <!-- The <div> element is a container for HTML elements -->
+    <div class="conteneur"></div>
+
+    <!-- The <link> tag defines a link between a document and an external resource -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="body">
+        <div class="background image"></div>
+        <header>
+            <div id="header" class="header">
+                <!-- The <h1> element defines a large heading -->
+                <h1> <a href="portfolio.html" class="lien">Infrastructure sous GNS3</a></h1>
+            </div>
+        </header>
+        <main> 
+            <!-- The <div> element is a container for HTML elements -->
+            <div class="main">
+                <!-- The <section> element defines a section in a document -->
+                <section>
+                    <!-- The <h2> element defines a section heading -->
+                    <h2><a href="#header" class="lien" id="projets">Création d'un réseau d'entreprise sous GNS3</a></h2>
+                        Dans un environnement GNS3, concevoir et mettre en place une infrastructure virtualisée correspondant au réseau d'une petite entreprise. Il faudra mettre en place plusieurs services différents (finance, RH, technique) avec :</br>
+                    
+                    - Quelques postes clients ayant accès à Internet.</br>
+                    - Un serveur centralisant l'ensemble des services réseaux (partage de fichiers FTP, dhcp, web...).</br></br>
+                    J'ai réalisé ce projet en équipe de trois avec Monsieur Vazeille Mathys et Monsieur Chamoux Ishaq. Au début du projet la répartition des tâches fût difficile dans la mesure où il nous fallait apprendre à utiliser le logiciel GNS3. Par la suite nous avons décidé de d'abord mettre en place l'infrastructure souhaitée. Aussi, nous nous sommes ainsi réparti les tâches :</br>
+                    M.Chamoux : la réalisation du site web contenant le compte rendu du projet.</br>
+                    M.Vazeille : la configuration de la sécurité de l'infrastructure.</br>
+                    M.Gilbertas : la mise en place et la configuration des serveurs et des postes clients.</br>
+                    L'équipe : la création d'un script en PhP permettant de récupérer les logs des différents services.</br>
+                    <strong><a href="fichiers/Diagramme_projet.pdf" target="_blank" class="images_projets">Diagramme de gestion du projet.</a></strong></br></br>
+                    La première difficulté fût dans la prise en main du logiciel GNS3. Jusqu'à maintenant nous n'avions travaillé que sur Cisco Packet Tracer, apprendre à configurer une infrastructure sur des appareils qui ne fonctionnent pas comme nous l'avions appris fût long. La seconde difficulté est apparu lorsque nous quittions le projet : toutes les interfaces de nos switchs s'éteignaient et se remettaient en configuration par défaut. Nous avons finalement décidé de ne plus éteindre le projet (lorsque nous quittions le logiciel, le projet restait ouvert sur le serveur). Enfin, la plus grosse difficulté a été de récupérer les logs des serveurs du projet pour les afficher sur notre page web.</br>
+                    <strong><a href="fichiers/topologie.png" target="_blank" class="images_projets">La topologie</a></strong></br></br>
+                    Ce projet m'a permis de développer des compétences. J'ai appris à utiliser le logiciel d'émulation GNS3, j'ai pus parfaire mes compétences en PhP et celles requises pour les configurations de serveurs (syslog, FTP...)</br>
+                </a></br></br>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="footer">
+        <section>
+            <h2><a id="contact">Contact</a></h2>
+            <a>
+                <a class="contact" href="mailto:j-lou.gilbertas@etu.uca.fr">j-lou.gilbertas@etu.uca.fr</a></br>
+                <a class="contact" href="tel:+33767515575">07 67 51 55 75</a>
+            </a>
+        </section>
+        </div>
+    </footer>
+
+    </div>
+
+</body>
+
+</html>

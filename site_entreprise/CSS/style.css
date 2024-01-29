@@ -1,0 +1,83 @@
+ul {
+    list-style-type: none;
+}
+body {
+    margin: 0;
+    background-image: url("../image/R.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header{
+    background-color: darkgray;
+    height: 20vh;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main{
+    background-color: peachpuff;
+    height: 60vh;
+    display: flex;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    background-color: darkgray;
+    height: 20vh;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 600px){
+    main{color: red;}
+}
+@media (max-width: 601px) and (min-width: 1199px){
+    main{color: green;}
+}
+@media (min-width: 1200px){
+    main{color: red;}
+}
+@media (max-width:300px){
+    footer,main, header{color: red}
+}
+@media (min-width:301px){
+    footer,main, header{color: green}
+}
+@media (min-width:600px){
+    footer, main, header{color:red;}
+}
+p{
+    font-size: 5vh;
+    color: blue;
+    display: none;
+}
+@media (max-width: 600px){
+    p:first-of-type {
+        display: block;
+    }
+}
+@media (min-width: 1200px){
+    p:nth-of-type(2) {
+        display: block;
+    }
+}
+@media (max-height: 300px){
+    p:nth-of-type(3) {
+        display: block;
+    }
+}
+@media (min-height: 600px){
+    p:last-of-type {
+        display: block;
+    }
+}

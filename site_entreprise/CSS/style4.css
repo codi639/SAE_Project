@@ -1,0 +1,234 @@
+/* This CSS file contains styling rules for a portfolio website. */
+
+/* The #conteneur element is a flex container with a column direction, centered content and items. */
+#conteneur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* The .header element is a flex container with a row direction, centered content and items. It has a semi-transparent gray background color, a 20px font size, and uses the Calibri Light font. */
+.header {
+    background-color: rgb(142, 142, 142, 0.6);
+    font-size: 20px;
+    font-family: "calibri-light";
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    align-self: auto;
+    flex-direction: row;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* The .presentation element is a flex container with centered content and items. It has a dark green background color, a 25px font size, and uses the Prompt font. It also has padding and margins to create spacing. */
+.presentation {
+    background-color: rgb(14, 77, 77, 0.9);
+    max-height: 1500px;
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 100px;
+    color: rgb(255, 255, 255);
+}
+
+/* The .main element is a flex container with centered content and items. It has a dark green background color, a 25px font size, and uses the Prompt font. It also has padding and margins to create spacing. */
+.main {
+    background-color: rgb(14, 77, 77, 0.9);
+    font-size: 25px;
+    font-family: 'Prompt', sans-serif;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    align-self: center;
+    max-height: 8000px;
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    color: white;
+}
+
+/* The .body element has a background image of rock climbing, centered and covering the entire background. */
+.body {
+    background-image: url("../image/escalade.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+}
+
+/* The .footer element is a flex container with centered content and items. It has a semi-transparent gray background color, a 20px font size, and uses the Calibri Light font. */
+.footer {
+    background-color: rgb(142, 142, 142, 0.6);
+    font-size: 20px;
+    font-family: "calibri-light";
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    margin-top: 100px;
+    text-align: start;
+}
+
+/* The .skills element has a light gray background color and takes up the full width of its container. */
+.skills {
+    width: 100%;
+    background-color: #ddd;
+}
+
+/* The .skill element has a right text alignment, white text color, and padding for spacing. */
+.skill {
+    text-align: right;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: white
+}
+
+/* The .GNS3 element has a dark green background color and takes up 60% of its container. */
+.GNS3 {
+    width: 60%;
+    background-color: rgb(20, 100, 50);
+}
+
+/* The .conf element has a dark red background color and takes up 95% of its container. */
+.conf {
+    width: 95%;
+    background-color: rgba(92, 19, 1);
+}
+
+/* The .gestion element has a dark blue background color and takes up 80% of its container. */
+.gestion {
+    width: 80%;
+    background-color: rgb(20, 50, 100);
+}
+
+/* The body element has no margin. */
+
+body {
+    margin: 0;
+}
+
+/* Color for the .GitHub element. */
+
+a.GitHub {
+    text-decoration: none;
+}
+
+a.GitHub:link {
+    color: rgb(170, 170, 170);
+}
+
+a.GitHub:hover {
+    color: rgb(120, 120, 120);
+}
+
+a.GitHub:visited {
+    color: rgb(170, 170, 170);
+}
+
+/* The .contact element has a dark blue text color. */
+a.contact {
+    color: rgb(14, 50, 110);
+}
+
+/* The .lien element has a semi-transparent black text color. */
+a.lien:link {
+    color: rgb(0, 0, 0, 0.8);
+}
+
+/* The .lien element has a semi-transparent black text color when visited. */
+a.lien:visited {
+    color: rgb(0, 0, 0, 0.8);
+}
+
+/* The .lien element has a semi-transparent green text color when hovered over. */
+a.lien:hover {
+    color: rgb(14, 110, 77, 0.8);
+}
+
+/* The .lien element has no text decoration. */
+a.lien {
+    text-decoration: none;
+}
+
+/* The .lien2 element has a semi-transparent brown text color. */
+a.images_projets {
+    text-decoration: none;
+}
+
+/* The .lien2 element has a semi-transparent orange text color. */
+a.images_projets:link {
+    color: rgb(170, 170, 170, 0.8)
+}
+
+/* The .lien2 element has a semi-transparent dark red text color when visited. */
+a.images_projets:visited {
+    color: rgba(170, 170, 170, 0.8)
+}
+
+/* The .lien2 element has a semi-transparent gray text color when hovered over. */
+a.images_projets:hover {
+    color: rgb(120, 120, 120, 0.8)
+}
+
+a.project_link {
+    text-decoration: none;
+}
+
+a.project_link:link {
+    color: rgb(170, 170, 170, 0.8)
+}
+
+a.project_link:visited {
+    color: rgb(170, 170, 170, 0.8)
+}
+
+a.project_link:hover {
+    color: rgb(120, 120, 120, 0.8)
+}
+
+a.Entreprise_Link {
+    text-decoration: none;
+}
+
+a.Entreprise_Link:link {
+    color: rgb(170, 170, 170, 0.8)
+}
+
+a.Entreprise_Link:visited {
+    color: rgb(170, 170, 170, 0.8)
+}
+
+a.Entreprise_Link:hover {
+    color: rgb(120, 120, 120, 0.8)
+}
+
+/* The scrollbar has a width of 10px, a dark green background color for the track, and a light gray background color for the thumb. */
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(14, 77, 77, 0.9);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(142, 142, 142, 0.6);
+    border-radius: 20px;
+    border: 0;
+}
